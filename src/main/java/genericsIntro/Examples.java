@@ -39,7 +39,7 @@ public class Examples {
 
         System.out.println("\n=== 6. ? super example ===");
         List<Number> destination = new ArrayList<>();
-        addIntegers(destination);
+
         System.out.println("Destination after addIntegers: " + destination);
     }
 
@@ -89,12 +89,7 @@ public class Examples {
         }
     }
 
-    // 6. ? super = good for writing
-    public static void addIntegers(List<? super Integer> list) {
-        list.add(100);
-        list.add(200);
-        list.add(300);
-    }
+
 }
 
 
