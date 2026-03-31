@@ -17,6 +17,7 @@ public class Main {
 
         writeFile(path);
         readFile(path);
+        System.out.println("");
     }
 
 }
